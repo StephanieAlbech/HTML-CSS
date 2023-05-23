@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas Simples ordenadas</h2>
+    <p>Listas ordenadas são todas aquelas onde a ordem dos componentes é muito importante.</p>
+    <ol>
+        <li>Lista 1</li>
+        <li>Lista 2</li>
+        <li>Lista 3</li>
+        <li>Lista 4</li>
+        <li>Lista 5</li>
+    </ol>
+    <p>A tag Ol possui um parâmetro type onde copnfighuramos o tipo de marcador da lista atual. As opçôes de valores para esse parâmentro são:</p>
+    <ol>
+        <li><strong>1</strong> - Valor padrão. Cria listas numeradas. Ex: 1,2,4,5,...</li>
+        <li> <strong>A</strong> - Cria listas alfabéticas em maiúesculas. Ex: A,B,C,D,....</li>
+        <li><strong>a</strong> - Cria listas alfabéticas em minúsculas. Ex: a,b,c,d,....</li>
+        <li><strong>I</strong> - Cria listasd com algarismos romanos em maiúsculas. Ex: I,II,III,IV,...</li>
+        <li><strong>i</strong> - Cria listas com algarismos romanosem minpuesculas. Ex: i,ii,iii,iv,...</li>
+    </ol>
+    <p>Você também pode indicar o inicio da contagem utilizando a tag <code>start</code></p>
+
+    <p>Por Exemplo a tag <code>
+        <ol type="I" starts ="5">
+    </code> vai gerar itens apartir de V</ol></p>
+
+    <p>Para criar uma lista não ordenada basta usar o Ul no lugar de Ol, Ex:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <lI>Item 5</lI>
+    </ul>
+    <p>O marcador padrão é a bolinha totalmente preta, mas tem como configurar o a propriedade type com os seguintes valores:
+    </p>
+    <ul type="disk"><li> Disk, O padrão.</li></ul>
+    <ul type="circle"><li> Circle, Uma bola não preenchida</li></ul>
+    <ul type="square"><li>Um quadrado.</li></ul>
+
+    <h2>Listas mistas.</h2>
+    <p>Basicamente isso:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 2.1</li>
+            <li>item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <p>Exercicio:</p>
+
+  
+    <ul type="disk">
+        <li>Nintendinho</li>
+        <ol>
+        <li>Mario Bros</li>
+            <ul type="square">
+                <li>Super Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+        <li>Ninja Gaiden III</li>
+            <ul type="square">
+                <li>Ninja Gaiden III</li>
+            </ul>
+        </ol>
+    </ul>
+        <ul type="disk"><li> Super Nintendo</li><ol>
+            <li>Super Mario World</li>
+            <li>Donkey Dong</li>
+            <ul type="square">
+                <li>Donkey Kong Country III</li>
+                <li>Diddy's Kong Quest</li>
+            </ul></ul></ol>
+        
+        
+            <ul type="disk"><li>Playstation 1</li>
+            <ol>
+                <li>Final Fantasy </li>
+                <ul type="square">
+                    <li>Final Fantasy VII</li>
+                    <li>Final Fantasy IX</li>
+                </ul>
+                <li>Castelvania</li>
+                <ul>
+                    <li>Simphony of the Night</li>
+                </ul>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>LInguagem de marcação usada para criar o conteudo do site</dd>
+
+        <dt>CSS</dt>
+        <dd>LInguagem de marcação usada para criar estilos em sites.</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade em sites.</dd>
+    </dl>
+        
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+</body>
+</html>

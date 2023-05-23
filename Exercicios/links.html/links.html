@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* Seletores personalizados
+        # == id
+        . == class
+        : == pseudo-classes
+        :: == pseudo-elements
+        > == children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+        a{
+            color: rgb(47, 0, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(67, 50, 167);
+        }
+        a:active{
+            color: rgb(255, 197, 7);
+        }
+        .especial{
+            background-color: rgba(255, 145, 0, 0.397);
+            border-radius: 200px;
+            
+        }
+
+        .especial::before{
+            content: '⇒ ';
+            color: rgb(255, 176, 4);
+        }
+        .especial::after{
+            content:' ⇐';
+            color: rgb(255, 176, 4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://r.search.yahoo.com/_ylt=AwrEt7KNwt5j8MUp6xfz6Qt.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1675571982/RO=10/RU=https%3a%2f%2fgithub.com%2f/RK=2/RS=u4BSeUh97MUW17H8BPfb5zKmuvU-"target="_blank">Repositório github</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" class="especial">Canal do youtube</a></li>
+        <li><a href="https://r.search.yahoo.com/_ylt=Awrhbk62wt5jn0spJiTz6Qt.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1675572023/RO=10/RU=https%3a%2f%2fwww.cursoemvideo.com%2f/RK=2/RS=D1g23ZlKaKzMC5WLXOkIgTmaT3o-" target="_blank">Site do curso em video</a></li>
+    </ul>
+</body>
+</html>
