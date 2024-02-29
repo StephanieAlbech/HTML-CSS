@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p><label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name"></p>
+
+        <p><label for="media">Média:</label>
+        <input type="number" name="media" id="media" min="0" max="10" placeholder="0 á 10" step="0.1" value="5" ></p>
+
+        <p><label for="pl">Periodo letivo:</label>
+        <input type="month" name="pl" id="pl" required></p>
+
+        <p><label for="dp">Dia da prova:</label>
+        <input type="date" name="dp" id="dp" required></p>
+
+        <p><label for="hr">Horário da Prova:</label>
+        <input type="time" name="hr" id="hr"></p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
