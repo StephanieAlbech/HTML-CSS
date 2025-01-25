@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 550px) {
+    
+    body{
+        overflow-y: auto;
+        
+        scrollbar-width: thin; 
+        scrollbar-color: transparent transparent;
+        background-color: #4C5FD5;
+        background-image: none;
+        
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .conteiner{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        
+        
+       
+       
+    }
+
+    body::-webkit-scrollbar {
+        width: 0px;}
+    
+   
+    div.conteiner {
+        padding: 20px;
+        margin: 0px 0px -90px 15px;
+        
+
+        
+    }
+    .login{
+        border-radius: 10px 10px 0px 0px;
+        box-shadow: rgba(88, 88, 94, 0.842) 0px 7px 29px 0px;
+    }
+    div.cadastro{
+        border-radius: 0px 0px 10px 10px;
+        padding: 20px 95px 140px 20px;
+        box-shadow: rgba(88, 88, 94, 0.842) 0px 7px 29px 0px;
+    }
+   
+}
